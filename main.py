@@ -78,11 +78,11 @@ for listed in enumeration:
         l.extend([b for b in brides[bride]])
     if (len(set(l))) >= len(listed)): continue
     else: 
-        print("Não a macho para todas")
+        print("Não a casamento")
         right = True
         break
 if right:
-    print("Deu certo, todas arrumaram machos")
+    print("Deu certo, todas casaram")
 
 
 
